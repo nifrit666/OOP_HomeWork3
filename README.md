@@ -6,15 +6,16 @@
 
 2) Сделать так, чтобы после выполнения кода ниже, в сете result были только уникальные объекты.
  
-**Set result = new HashSet<>(множество из нескольких лекарств);** 
+    **Set result = new HashSet<>(множество из нескольких лекарств);** 
 
-**System.out.println(result.size());** 
+    **System.out.println(result.size());** 
+
 // тут вывод должен быть равен количеству УНИКАЛЬНЫХ экземпляров Pharmacy!
 
 
 3) Добавить интерфейс **Copmparable<Pharmacy>** к классу **Pharmacy**. Переопределить метод **compareTo()** 
 
-подсказка: можно добавить, а можно не добавлять в класс поля;
+    **подсказка:** можно добавить, а можно не добавлять в класс поля;
 
 
-ссылка на статью о equals и hashCode: https://javarush.com/groups/posts/2179-metodih-equals--hashcode-praktika-ispoljhzovanija
+    ссылка на статью о equals и hashCode: https://javarush.com/groups/posts/2179-metodih-equals--hashcode-praktika-ispoljhzovanija
